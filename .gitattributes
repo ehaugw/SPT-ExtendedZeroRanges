@@ -1,1 +1,2 @@
 icon.png filter=lfs diff=lfs merge=lfs -text
+ExtendedZeroRanges.zip filter=lfs diff=lfs merge=lfs -text
