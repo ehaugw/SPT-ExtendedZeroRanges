@@ -48,7 +48,7 @@ class Mod implements IPostDBLoadMod
             specterDR, specterDRFDE
         ].forEach(function (item) {
             tables.templates.items[item]._props.CalibrationDistances[0] =
-                [50, 100, 150, 200, 250, 300, 333, 366, 400, 425, 450, 475, 500, 525, 550, 575, 600, 625, 650];
+                [50, 100, 150, 200, 250, 300, 333, 366, 400, 425, 450, 475, 500, 525, 550, 575, 600, 620, 640, 660, 680, 700];
 
             // [50, 100, 150, 200, 250, 300, 333, 366, 400, 425, 450, 475, 500, 525, 550].forEach(function (zoom) {
             //     tables.templates.items[item]._props.CalibrationDistances[0].push(zoom);
