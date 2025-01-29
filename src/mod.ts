@@ -30,6 +30,7 @@ const tango6T = "6567e7681265c8a131069b0f";
 const pilad = "5dff772da3651922b360bf91";
 const specterDR = "57ac965c24597706be5f975c";
 const specterDRFDE = "57aca93d2459771f2c7e26db";
+const valdayPS320 = "5c0517910db83400232ffee5";
 
 class Mod implements IPostDBLoadMod
 {    
@@ -45,7 +46,7 @@ class Mod implements IPostDBLoadMod
         [
             razorHD, pso1, pso1M2, pso1M21, tac30, vudu, hensoldtFF4, kmz1P59, kmz1P69, leupoldM4LR, marchTactical,
             adoP4Sniper, atacr, nxs, npz1P78, ups1tyulpan, pag17, pu3_5, pmII1_8, pmII3_20, pmII5_25, tango6T, pilad,
-            specterDR, specterDRFDE
+            specterDR, specterDRFDE, valdayPS320
         ].forEach(function (item) {
             tables.templates.items[item]._props.CalibrationDistances[0] =
                 [50, 100, 150, 200, 250, 300, 333, 366, 400, 425, 450, 475, 500, 525, 550, 575, 600, 620, 640, 660, 680, 700];
