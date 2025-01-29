@@ -1,5 +1,5 @@
 include Makefile.helpers
-modname = ExtendedZeroRanges
+modname = extended-zero-ranges
 dependencies =
 
 assemble:
